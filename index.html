@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <section class="nav">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img src="C:\Users\hp\Downloads\PAP Logo.svg">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <div class="container-fluid">
+                <li class="nav-item">
+                  <a class="navbar-brand" style="color: green;" href="#">Home</a>
+                  <a class="navbar-brand" href="#">plants</a>
+                  <a class="navbar-brand" href="#">planters</a>
+                  <a class="navbar-brand" href="#">Essentials</a>
+                  <a class="navbar-brand" href="#">Services</a>
+                </li>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+    
+              <input type="text" id="search" placeholder="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section><br>
+
+
+  <section class="container-fluid">
+    <div class="row">
+      <img src="C:\Users\hp\Downloads\Rectangle 50Banner.svg" alt="">
+    </div>
+  </section><br>
+
+
+  <div class="para">
+    <section class="container">
+      <div class="row">
+        <p style="color: green;">See all </p>
+    </section>
+  </div>
+  </div>
+
+
+
+  <section class="container">
+    <div class="row">
+    </div>
+  </section>
+  <div class="container">
+    <div class="owl-carousel owl-theme">
+      <div class="item"><img src="C:\Users\hp\Downloads\Rectangle 51.svg" alt="" class="img-fluid"></div>
+      <div class="item"><img src="C:\Users\hp\Downloads\Rectangle 51 (1).svg" alt="" class="img-fluid"></div>
+      <div class="item"><img src="C:\Users\hp\Downloads\Rectangle 51 (3).svg" alt="" class="img-fluid"></div>
+      <div class="item"><img src="C:\Users\hp\Downloads\Rectangle 51 (5).svg" alt="" class="img-fluid"></div>
+      <div class="item"><img src="C:\Users\hp\Downloads\Rectangle 51 (6).svg" alt="" class="img-fluid"></div>
+      <div class="item"><img src="C:\Users\hp\Downloads\Rectangle 51 (7).svg" alt="" class="img-fluid"></div>
+    </div>
+  </div>
+  </div>
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+      items: 4,
+      loop: true,
+      margin: 10,
+      autoplay: true,
+      autoplayTimeout: 1000,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1,
+
+        },
+        600: {
+          items: 2,
+
+        },
+        1000: {
+          items: 4,
+
+        }
+      }
+
+    });
+    $('.play').on('click', function () {
+      owl.trigger('play.owl.autoplay', [1000])
+    })
+    $('.stop').on('click', function () {
+      owl.trigger('stop.owl.autoplay')
+    })
+  </script><br>
+
+
+  <div class="h">
+    <h1 class="text-center">Best Selling</h1><br>
+  </div>
+
+
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\hp\Downloads\Frame 61 (1).svg" alt="Card image cap">
+          <div class="card-body text-center">
+            <a href="#" class="btn btn-success">Shop Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\hp\Downloads\Frame 61 (2).svg" alt="Card image cap">
+          <div class="card-body text-center">
+            <a href="#" class="btn btn-success">Shop Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\hp\Downloads\Frame 61 (3).svg" alt="Card image cap">
+          <div class="card-body text-center">
+            <a href="#" class="btn btn-success">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br>
+  <br>
+
+
+  <div class="h">
+    <h1 class="text-center">Trending Plants</h1><br>
+  </div>
+
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\hp\Downloads\Frame 65.svg" alt="Card image cap">
+          <div class="card-body text-center">
+            <h5 class="card-title">Jade Terrarium</h5>
+            <h5>$350</h5>
+            <a href="#" class="btn btn-success"> Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\hp\Downloads\Frame 65 (1).svg" alt="Card image cap">
+          <div class="card-body text-center">
+            <h5 class="card-title">Ficus Benjamina</h5>
+            <h5>$350</h5>
+            <a href="#" class="btn btn-success"> Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\hp\Downloads\Frame 65 (2).svg" alt="Card image cap">
+          <div class="card-body text-center">
+            <h5 class="card-title">Syngorium Plant</h5>
+            <h5>$350</h5>
+            <a href="#" class="btn btn-success"> Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\hp\Downloads\Frame 65 (3).svg" alt="Card image cap">
+          <div class="card-body text-center">
+            <h5 class="card-title">Cactus Peruvianus</h5>
+            <h5>$350</h5>
+            <a href="#" class="btn btn-success"> Buy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br>
+
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\hp\Downloads\Frame 65 (4).svg" alt="Card image cap">
+          <div class="card-body text-center">
+            <h5 class="card-title">Chlorophytum Lemon</h5>
+            <h5>$350</h5>
+            <a href="#" class="btn btn-success"> Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\hp\Downloads\Frame 65 (5).svg" alt="Card image cap">
+          <div class="card-body text-center">
+            <h5 class="card-title">Aloe Rauhii</h5>
+            <h5>$350</h5>
+            <a href="#" class="btn btn-success"> Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\hp\Downloads\Frame 65 (6).svg" alt="Card image cap">
+          <div class="card-body text-center">
+            <h5 class="card-title">Areca Palm</h5>
+            <h5>$350</h5>
+            <a href="#" class="btn btn-success"> Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\hp\Downloads\Frame 65 (7).svg" alt="Card image cap">
+          <div class="card-body text-center">
+            <h5 class="card-title">Sansevieria Black</h5>
+            <h5>$350</h5>
+            <a href="#" class="btn btn-success"> Buy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br>
+
+
+  <div class="web">
+    <h1 class="text-center">Blogs</h1>
+  </div><br>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="C:\Users\hp\Downloads\Blog Card 1 (1).svg" class="img-fluid d-block m-auto" alt="">
+      </div>
+      <div class="col-lg-6">
+        <img src="C:\Users\hp\Downloads\Blog Card 2.svg" class="img-fluid d-block m-auto" alt="">
+      </div>
+    </div>
+  </div><br>
+
+
+
+  <div class="demo">
+    <h1 class="text-center">Hot Sale</h1>
+  </div><br>
+
+
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\hp\Downloads\Frame 65 (8).svg" alt="Card image cap">
+          <div class="card-body text-center">
+            <h5 class="card-title">Adenium Plant</h5>
+            <h5>$350</h5>
+            <a href="#" class="btn btn-success"> Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\hp\Downloads\Frame 65 (9).svg" alt="Card image cap">
+          <div class="card-body text-center">
+            <h5 class="card-title">Ficus Twilight</h5>
+            <h5>$350</h5>
+            <a href="#" class="btn btn-success"> Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\hp\Downloads\Frame 65 (10).svg" alt="Card image cap">
+          <div class="card-body text-center">
+            <h5 class="card-title">Rhoeo Plant</h5>
+            <h5>$350</h5>
+            <a href="#" class="btn btn-success"> Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\hp\Downloads\Frame 65 (11).svg" alt="Card image cap">
+          <div class="card-body text-center">
+            <h5 class="card-title">Ctenanthe burle</h5>
+            <h5>$350</h5>
+            <a href="#" class="btn btn-success"> Buy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br>
+  <br>
+
+
+  <div class="para2">
+    <h1 class="text-center">Planters</h1>
+  </div><br>
+  <br>
+
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\hp\Downloads\Frame 65 (12).svg" alt="Card image cap">
+          <div class="card-body text-center">
+            <h5 class="card-title">Tale Pot</h5>
+            <h5>$350</h5>
+            <a href="#" class="btn btn-success"> Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\hp\Downloads\Frame 65 (13).svg" alt="Card image cap">
+          <div class="card-body text-center">
+            <h5 class="card-title">Ice Cream Pot</h5>
+            <h5>$350</h5>
+            <a href="#" class="btn btn-success"> Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\hp\Downloads\Frame 65 (14).svg" alt="Card image cap">
+          <div class="card-body text-center">
+            <h5 class="card-title">Beige Fracture</h5>
+            <h5>$350</h5>
+            <a href="#" class="btn btn-success"> Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\hp\Downloads\Frame 65 (15).svg" alt="Card image cap">
+          <div class="card-body text-center">
+            <h5 class="card-title">Mint Fusion</h5>
+            <h5>$350</h5>
+            <a href="#" class="btn btn-success"> Buy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br>
+
+
+
+  <section class="bg">
+    <section class="about">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-12 col-sm-12 ">
+            <div class="info">
+              <h1>
+                Landscape Gardening
+              </h1><br>
+              <p>
+                Whether it is growing your own food or setting
+                up your roof-top garden, we provide the highest
+                quality landscaping services, contributing to a greener world and substantial living!
+
+                Schedule your service appointment today!
+
+                *Service only available in Telangana and AndhraPradesh.
+              </p>
+              <button class="btn btn-success">Book Now!</button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="C:\Users\hp\Downloads\Rectangle 58.svg" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      </div>
+    </section><br>
+
+
+    <div class="intro">
+      <h1 class="text-center">Celebs You Love, Love Us </h1>
+    </div><br>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="C:\Users\hp\Downloads\Frame 35.svg" class="img-fluid d-block m-auto" alt="">
+        </div>
+        <div class="col-md-3">
+          <img src="C:\Users\hp\Downloads\Frame 36.svg" class="img-fluid d-block m-auto" alt="">
+        </div>
+        <div class="col-md-3">
+          <img src="C:\Users\hp\Downloads\Frame 36 (1).svg" class="img-fluid d-block m-auto" alt="">
+        </div>
+        <div class="col-md-3">
+          <img src="C:\Users\hp\Downloads\Frame 37.svg" class="img-fluid d-block m-auto" alt="">
+        </div>
+      </div>
+    </div><br>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="C:\Users\hp\Downloads\Frame 35 (1).svg" class="img-fluid d-block m-auto" alt="">
+        </div>
+        <div class="col-md-4">
+          <img src="C:\Users\hp\Downloads\Frame 37 (1).svg" class="img-fluid d-block m-auto" alt="">
+        </div>
+        <div class="col-md-4">
+          <img src="C:\Users\hp\Downloads\Frame 38.svg" class="img-fluid m-auto" alt="">
+        </div>
+      </div>
+    </div><br>
+    <br>
+
+    <div class="srh">
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="C:\Users\hp\Downloads\PAP Logo 1.svg" alt="">
+            </div>
+            <div class="col-sm-2">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Bulk Order</a></li>
+                <li><a href="#">Gifts</a></li>
+                <li><a href="#">Organic Garden</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-2">
+              <h4>Legal</h4>
+              <ul>
+                <li><a href="#">T&C</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Cancellation</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-2">
+              <h4>Support</h4>
+              <ul>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-2">
+              <h4>© 2021 Plan A Plant <br>
+                All Rights Reserved</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="footer-two">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h4>We facilitate your payments through trusted gateways</h4>
+          </div>
+          <div class="col-sm-2">
+            <img src="C:\Users\hp\Downloads\Vector (5).svg" style="background-color: white;" alt="">
+          </div>
+          <div class="col-sm-2">
+            <img src="C:\Users\hp\Downloads\Group.svg" style="background-color: white;" alt="">
+          </div>
+          <div class="col-sm-2">
+            <img src="C:\Users\hp\Downloads\Vector (6).svg" style="background-color: white;" alt="">
+          </div>
+          <div class="col-sm-2">
+            <img src="C:\Users\hp\Downloads\RuPay Logo 1.svg" style="background-color: white; " alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+</body>
+</html>

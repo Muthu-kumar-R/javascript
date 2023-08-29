@@ -1,0 +1,65 @@
+body{
+    background-color: #E5E5E5;
+}
+.para{
+    display: grid;
+    justify-content: end;
+}
+.h> h1{
+    text-decoration: underline;
+}
+.web> h1{
+    text-decoration: underline;
+}
+.demo> h1{
+    text-decoration: underline;
+}
+.para2> h1{
+    text-decoration: underline;
+}
+.intro> h1{
+    text-decoration: underline;
+}
+.info p{
+    font-family: sans-serif;
+}
+.footer {
+    background-color:rgba(67, 110, 53, 1);
+    margin: auto;
+    padding: 50px 0;
+}
+
+.container{
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.srh ul li a{
+    color: white;
+    text-decoration: none
+}
+.footer-col h4{
+    color: white;
+}
+.social-links a{
+    color: white;
+}
+.footer-two{
+    background: rgba(1, 55, 12, 1);
+}
+.footer-two h4{
+    color: white;
+}
+.footer-two{
+    padding: 30px;
+}
+.srh h4 {
+    color: white;
+}
